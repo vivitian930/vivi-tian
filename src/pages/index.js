@@ -1,8 +1,9 @@
 import AnimatedText from "@/components/AnimatedText"
+import CertBadges from "@/components/CertBadges"
 import HireMe from "@/components/HireMe"
-import { LinkArrow } from "@/components/icons"
 import Layout from "@/components/Layout"
 import TransitionEffect from "@/components/TransitionEffect"
+import { LinkArrow } from "@/components/icons"
 import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
@@ -67,11 +68,13 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <CertBadges />
         </Layout>
         <HireMe />
-        <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
+
+        {/* <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
           <Image src={LightBultb} alt="Vivi" className="w-full h-auto" />
-        </div>
+        </div> */}
       </main>
     </>
   )
