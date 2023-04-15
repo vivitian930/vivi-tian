@@ -1,4 +1,5 @@
 import AnimatedText from "@/components/AnimatedText"
+import Certifications from "@/components/Certifications"
 import Education from "@/components/Education"
 import Experience from "@/components/Experience"
 import Layout from "@/components/Layout"
@@ -139,6 +140,7 @@ const about = () => {
             </div>
           </div>
           <Skills />
+          <Certifications />
           <Experience />
           <Education />
         </Layout>

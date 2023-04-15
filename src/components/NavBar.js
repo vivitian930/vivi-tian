@@ -2,6 +2,7 @@ import { motion } from "framer-motion"
 import Link from "next/link"
 import { useRouter } from "next/router"
 import React, { useState } from "react"
+import Logo from "./Logo"
 import useThemeSwitcher from "./hooks/useThemeSwitcher"
 import {
   DribbbleIcon,
@@ -12,7 +13,6 @@ import {
   SunIcon,
   TwitterIcon
 } from "./icons"
-import Logo from "./Logo"
 
 const CustomLink = ({ href, title, className = "" }) => {
   const router = useRouter()
@@ -93,7 +93,7 @@ const NavBar = () => {
       <div className="flex w-full justify-between items-center lg:hidden">
         <nav>
           <CustomLink href="/" title="Home" className="mr-4" />
-          <CustomLink href="/about" title="About" className="mx-4" />
+          <CustomLink href="/about" title="AboutMe" className="mx-4" />
           <CustomLink href="/projects" title="Projects" className="mx-4" />
           <CustomLink href="/articles" title="Article" className="ml-4" />
         </nav>
