@@ -46,7 +46,7 @@ const about = () => {
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="Passion Fuels Purpose!"
+            text="Imagine, Innovate, Implement!"
             className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
@@ -58,23 +58,27 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I'm CodeBucks, a web developer and UI/UX designer with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. With 4 years of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                clients' visions to life.
+                Hi, I'm Vivi, an Azure Cloud and DevOps Engineer with experience
+                in designing and implementing cloud-native app solutions. I have
+                a strong background in DevOps/GitOps best practices, which helps
+                organizations streamline their development processes and improve
+                scalability.
               </p>
               <p className="my-4 font-medium">
-                I believe that design is about more than just making things look
-                pretty – it's about solving problems and creating intuitive,
-                enjoyable experiences for users.
+                As an expert in Azure Cloud Architecture, I have designed and
+                implemented numerous cloud-native and microservices
+                architectures using technologies such as Kubernetes, and Istio.
+                My solutions are highly available, scalable, and secure, and I
+                make sure they meet the unique needs of each organization.
               </p>
               <p className="font-medium">
-                Whether I'm working on a website, mobile app, or other digital
-                product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+                I am a highly communicative and collaborative team player who is
+                equally comfortable working independently. My areas of expertise
+                include CI/CD pipelines, IaC and Terraform, networking, and
+                security. Whatever challenge you are facing, whether it's
+                migrating to the cloud, optimizing your existing cloud
+                infrastructure, or improving your development processes, I can
+                help you achieve your goals.
               </p>
             </div>
             <div

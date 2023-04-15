@@ -51,13 +51,13 @@ const Skills = () => {
         <Skill name="Docker" x="-35vw" y="0vw" />
         <Skill name="Git/GitHub" x="-25vw" y="30vw" />
         <Skill name="CI/CD Yaml pipelines" x="5vw" y="-18vw" />
-        <Skill name="DevOps Engineer" x="15vw" y="-28vw" />
+        <Skill name="DevOps Engineer" x="25vw" y="-30vw" />
         <Skill name="Platform Engineer" x="25vw" y="-23vw" />
         <Skill name="Solution Architect" x="5vw" y="-10vw" />
-        <Skill name="DevOps/GitOps" x="0vw" y="-36vw" />
+        <Skill name="DevOps/GitOps" x="0vw" y="-27vw" />
         <Skill name="Cloud Engineering" x="15vw" y="15vw" />
         <Skill name="Backend Engineer" x="25vw" y="30vw" />
-        <Skill name="IaC/Terraform" x="-30vw" y="-30vw" />
+        <Skill name="IaC/Terraform" x="-26vw" y="-26vw" />
         <Skill name="Infrastructure as Code" x="-26vw" y="-15vw" />
         <Skill name="Nodejs" x="-20vw" y="20vw" />
         <Skill name="Python" x="33vw" y="10vw" />
