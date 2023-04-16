@@ -42,7 +42,7 @@ const Experience = () => {
     offset: ["start end", "center center"]
   })
   return (
-    <div className="my-64">
+    <div className="mt-32">
       <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl md:mb-16 xs:text-4xl">
         Experience
       </h2>
@@ -58,44 +58,21 @@ const Experience = () => {
           "
         >
           <Details
-            position="Software Engineer"
-            company="XXX"
-            time="2022-Present"
-            companyLink="www.google.com"
+            position="Cloud & DevOps Engineer"
+            company="Self-Employed"
+            time="2021-Present"
+            companyLink="/"
             address="Auckland, New Zealand"
-            work="Worked on a team responsible for developing new features for XXX's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
+            work="Worked on a team responsible for design and deliver fully automated Azure Landing Zones for clients. Contributed to automating Azure DevOps projects, repositories, subscriptions, and workspaces using Terraform, ARM Template, PowerShell, Bash, and Python. Used Azure Repos, Azure Pipelines, service connections, and Azure Cloud for subscription management."
           />
           <Details
-            position="Software Engineer"
-            company="XXX"
-            time="2022-Present"
-            companyLink="www.google.com"
+            position="Software & DevOps Engineer"
+            company="Self-Employed"
+            time="2020-Present"
+            companyLink="/"
             address="Auckland, New Zealand"
-            work="Worked on a team responsible for developing new features for XXX's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
-          />
-          <Details
-            position="Software Engineer"
-            company="XXX"
-            time="2022-Present"
-            companyLink="www.google.com"
-            address="Auckland, New Zealand"
-            work="Worked on a team responsible for developing new features for XXX's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
-          />
-          <Details
-            position="Software Engineer"
-            company="XXX"
-            time="2022-Present"
-            companyLink="www.google.com"
-            address="Auckland, New Zealand"
-            work="Worked on a team responsible for developing new features for XXX's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
+            work="Self-trained Architect and Engineering skills with professional guidance. Worked on distrabuted web applications and integration systems.
+            Recent contribution includes a Customized ChatGPT, AI Art Generation Integration/Automation to fully automate Midjourney image generation. "
           />
         </ul>
       </div>

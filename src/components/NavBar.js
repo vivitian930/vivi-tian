@@ -5,6 +5,7 @@ import React, { useState } from "react"
 import Logo from "./Logo"
 import useThemeSwitcher from "./hooks/useThemeSwitcher"
 import {
+  CredlyIcon,
   DribbbleIcon,
   GithubIcon,
   LinkedInIcon,
@@ -97,9 +98,8 @@ const NavBar = () => {
           <CustomLink href="/projects" title="Projects" className="mx-4" />
           <CustomLink href="/articles" title="Article" className="ml-4" />
         </nav>
-        {/* <h2>haha</h2> */}
         <nav className="flex items-center justify-center flex-wrap">
-          <motion.a
+          {/* <motion.a
             href="https://twitter.com"
             target={"_blank"}
             whileHover={{ y: -2 }}
@@ -107,9 +107,9 @@ const NavBar = () => {
             className="w-6 mx-3"
           >
             <TwitterIcon />
-          </motion.a>
+          </motion.a> */}
           <motion.a
-            href="https://twitter.com"
+            href="https://github.com/vivitian930"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -118,7 +118,7 @@ const NavBar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="https://twitter.com"
+            href="https://www.linkedin.com/in/vivi-tian/"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -127,22 +127,14 @@ const NavBar = () => {
             <LinkedInIcon />
           </motion.a>
           <motion.a
-            href="https://twitter.com"
+            href="https://www.credly.com/users/jing-tian.cb19ac1e"
             target={"_blank"}
+            initial={{ scale: 1.2 }}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
-            className="w-6 mx-3 bg-light rounded-full"
+            className="w-6 mx-3 dark:bg-light rounded-full"
           >
-            <PinterestIcon />
-          </motion.a>
-          <motion.a
-            href="https://twitter.com"
-            target={"_blank"}
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6 ml-3 "
-          >
-            <DribbbleIcon />
+            <CredlyIcon />
           </motion.a>
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
@@ -229,9 +221,9 @@ const NavBar = () => {
               whileTap={{ scale: 0.9 }}
               className="w-6 mx-3 bg-light rounded-full sm:mx-1"
             >
-              <PinterestIcon />
+              <CredlyIcon />
             </motion.a>
-            <motion.a
+            {/* <motion.a
               href="https://twitter.com"
               target={"_blank"}
               whileHover={{ y: -2 }}
@@ -239,7 +231,7 @@ const NavBar = () => {
               className="w-6 ml-3 sm:mx-1"
             >
               <DribbbleIcon />
-            </motion.a>
+            </motion.a> */}
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
               className={`ml-3 flex items-center justify-center rounded-full p-1 sm:mx-1 ${

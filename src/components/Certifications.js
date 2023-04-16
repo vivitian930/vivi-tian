@@ -44,7 +44,7 @@ const Certifications = () => {
     offset: ["start end", "center center"]
   })
   return (
-    <div className="my-64">
+    <div className="mt-32">
       <h2 className="font-bold text-8xl mb-4 w-full text-center md:text-6xl md:mb-16 xs:text-4xl">
         Certifications
       </h2>
