@@ -1,4 +1,5 @@
 import AnimatedText from "@/components/AnimatedText"
+import Certifications from "@/components/Certifications"
 import Education from "@/components/Education"
 import Experience from "@/components/Experience"
 import Layout from "@/components/Layout"
@@ -103,19 +104,18 @@ const about = () => {
             >
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumber value={50} />+
+                  <AnimatedNumber value={2} />+
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75
                 xl:text-center md:text-lg sm:text-base xs:text-sm"
                 >
-                  Satisfied Clients
+                  Years of Experience
                 </h2>
               </div>
-
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumber value={40} />+
+                  <AnimatedNumber value={20} />+
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75
@@ -127,18 +127,19 @@ const about = () => {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumber value={2} />+
+                  <AnimatedNumber value={40} />+
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75
                 xl:text-center md:text-lg sm:text-base xs:text-sm"
                 >
-                  Years of Experience
+                  Terraform Modules
                 </h2>
               </div>
             </div>
           </div>
           <Skills />
+          <Certifications />
           <Experience />
           <Education />
         </Layout>

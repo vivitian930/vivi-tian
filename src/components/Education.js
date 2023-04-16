@@ -8,7 +8,7 @@ const Details = ({ type, time, place, info }) => {
     <li
       ref={ref}
       className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col
-    items-center justify-between md:w-[80%]"
+    items-start justify-between md:w-[80%]"
     >
       <LiIcon reference={ref} />
       <motion.div
@@ -35,7 +35,7 @@ const Education = () => {
     offset: ["start end", "center center"]
   })
   return (
-    <div className="my-64">
+    <div className="my-32">
       <h2
         className="font-bold text-8xl mb-32 w-full text-center
       md:text-6xl md:mb-16 xs:text-4xl
@@ -52,20 +52,16 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Bachelor Of Science In Computer Science"
-            place="XXX"
-            time="2016-2020"
-            info="Massachusetts Institute Of Technology (MIT)
-            Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-            Intelligence"
+            type="Bachelor In Art Design"
+            place="Beijing, China"
+            time="2009-2014"
+            info="Beijing Jiaotong University (BJTU). Major in Graphic and Art Design."
           />
           <Details
-            type="Bachelor Of Science In Computer Science"
-            place="XXX"
-            time="2016-2020"
-            info="Massachusetts Institute Of Technology (MIT)
-            Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-            Intelligence"
+            type="Diploma In Business Management"
+            place="Auckland, New Zealand"
+            time="2015-2016"
+            info="New Zealand Institute of Study"
           />
         </ul>
       </div>
