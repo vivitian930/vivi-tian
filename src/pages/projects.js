@@ -2,12 +2,14 @@ import AnimatedText from "@/components/AnimatedText"
 import Layout from "@/components/Layout"
 import TransitionEffect from "@/components/TransitionEffect"
 import { GithubIcon } from "@/components/icons"
-import { motion } from "framer-motion"
+import { addPointerInfo, motion } from "framer-motion"
 import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
 import React from "react"
-import project1 from "../../public/images/projects/portfolio-cover-image.jpg"
+import devSecOpsProject from "../../public/images/projects/aks-devsecops-flow.png"
+import discordBotProject from "../../public/images/projects/discord-bot.svg"
+import portfolioProject from "../../public/images/projects/portfolio-project.png"
 
 const FramerImage = motion(Image)
 
@@ -172,15 +174,15 @@ const projects = () => {
           >
             <div className="col-span-12">
               <FeaturedProject
-                title="React Portfolio Website"
+                title="Nextjs Portfolio Website"
                 summary="A portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
                 link="/"
                 type="Featured Project"
-                img={project1}
-                github="https://github.com/vivitian930/nextjs-portfolio"
+                img={portfolioProject}
+                github="https://github.com/vivitian930/vivitian930.github.io"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 title="React Portfolio Website"
                 link="/"
@@ -196,19 +198,29 @@ const projects = () => {
                 type="Featured Project"
                 img={project1}
                 github="https://github.com/vivitian930/nextjs-portfolio"
+              />
+            </div> */}
+            <div className="col-span-12">
+              <FeaturedProject
+                title="DevSecOps Flow for AKS Deployment"
+                summary="An end-to-end DevSecOps solution for clients using Azure, Azure DevOps, AKS. Also leveraging other third-party security tools including CrowdStrike, Whitesource, SonarCloud, and more. Security is baked in to every phase of Software Development Life Cycle (SDLC)."
+                link="https://vivitian930.github.io/solution-design-log/aks-devsecops-flow"
+                type="Featured Project"
+                img={devSecOpsProject}
+                github="https://github.com/vivitian930/solution-design-log"
               />
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                title="React Portfolio Website"
-                summary="A portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
-                link="/"
+                title="Discord ChatGPT Bot for Midjourney"
+                summary="A Discord Bot that allows users to chat with the chatgpt API. It provides commands for easy prompts generation, which then can be sent to Midjourney /imagine to generate images."
+                link="https://vivitian930.github.io/discord-gpt-bot/discord-gpt-bot"
                 type="Featured Project"
-                img={project1}
-                github="https://github.com/vivitian930/nextjs-portfolio"
+                img={discordBotProject}
+                github="https://github.com/vivitian930/discord-gpt-bot"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 title="React Portfolio Website"
                 link="/"
@@ -225,7 +237,7 @@ const projects = () => {
                 img={project1}
                 github="https://github.com/vivitian930/nextjs-portfolio"
               />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>

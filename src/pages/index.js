@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Vivi Tian</title>
+        <title>Vivi Tian's Portfolio</title>
         <meta name="description" content="Vivi Tian, vivitian930" />
       </Head>
       <TransitionEffect />
