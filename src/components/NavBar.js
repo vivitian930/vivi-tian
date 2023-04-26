@@ -6,11 +6,9 @@ import Logo from "./Logo"
 import useThemeSwitcher from "./hooks/useThemeSwitcher"
 import {
   CredlyIcon,
-  DribbbleIcon,
   GithubIcon,
   LinkedInIcon,
   MoonIcon,
-  PinterestIcon,
   SunIcon,
   TwitterIcon
 } from "./icons"
@@ -96,7 +94,7 @@ const NavBar = () => {
           <CustomLink href="/" title="Home" className="mr-4" />
           <CustomLink href="/about" title="AboutMe" className="mx-4" />
           <CustomLink href="/projects" title="Projects" className="mx-4" />
-          <CustomLink href="/articles" title="Article" className="ml-4" />
+          {/* <CustomLink href="/articles" title="Article" className="ml-4" /> */}
         </nav>
         <nav className="flex items-center justify-center flex-wrap">
           {/* <motion.a
@@ -178,12 +176,12 @@ const NavBar = () => {
               className=""
               toggle={handleClick}
             />
-            <CustomMobileLink
+            {/* <CustomMobileLink
               href="/articles"
               title="Article"
               className=""
               toggle={handleClick}
-            />
+            /> */}
           </nav>
           {/* <h2>haha</h2> */}
           <nav className="flex items-center justify-center flex-wrap mt-2">
@@ -197,7 +195,7 @@ const NavBar = () => {
               <TwitterIcon />
             </motion.a> */}
             <motion.a
-              href="https://twitter.com"
+              href="https://github.com/vivitian930"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -206,7 +204,7 @@ const NavBar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="https://twitter.com"
+              href="https://www.linkedin.com/in/vivi-tian/"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -215,7 +213,7 @@ const NavBar = () => {
               <LinkedInIcon />
             </motion.a>
             <motion.a
-              href="https://twitter.com"
+              href="https://www.credly.com/users/jing-tian.cb19ac1e"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
