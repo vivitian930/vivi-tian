@@ -8,7 +8,7 @@ import Image from "next/image"
 import Link from "next/link"
 import React from "react"
 import devSecOpsProject from "../../public/images/projects/aks-devsecops-flow.png"
-import project1 from "../../public/images/projects/portfolio-cover-image.jpg"
+import discordBotProject from "../../public/images/projects/discord-bot.svg"
 import portfolioProject from "../../public/images/projects/portfolio-project.png"
 
 const FramerImage = motion(Image)
@@ -210,7 +210,17 @@ const projects = () => {
                 github="https://github.com/vivitian930/solution-design-log"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Discord ChatGPT Bot for Midjourney"
+                summary="A Discord Bot that allows users to chat with the chatgpt API. It provides commands for easy prompts generation, which then can be sent to Midjourney /imagine to generate images."
+                link="https://vivitian930.github.io/discord-gpt-bot/discord-gpt-bot"
+                type="Featured Project"
+                img={discordBotProject}
+                github="https://github.com/vivitian930/discord-gpt-bot"
+              />
+            </div>
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 title="React Portfolio Website"
                 link="/"
@@ -227,7 +237,7 @@ const projects = () => {
                 img={project1}
                 github="https://github.com/vivitian930/nextjs-portfolio"
               />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>
