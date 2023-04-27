@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Vivi Tian's Portfolio</title>
+        <title>Vivi Tian&apos;s Portfolio</title>
         <meta name="description" content="Vivi Tian, vivitian930" />
       </Head>
       <TransitionEffect />
@@ -39,17 +39,17 @@ export default function Home() {
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                I'm an experienced Cloud Solutions Architect and DevOps expert
-                with strong communication skills, specialized in designing Azure
-                cloud architectures, crafting cloud-native solutions, and
-                implementing container orchestration strategies. Proficient in
-                Kubernetes, Istio, CI/CD pipelines, and Infrastructure as Code
-                tools such as Terraform, I excel at delivering secure and
-                scalable cloud solutions.
+                I&apos;m an experienced Cloud Solutions Architect and DevOps
+                expert with strong communication skills, specialized in
+                designing Azure cloud architectures, crafting cloud-native
+                solutions, and implementing container orchestration strategies.
+                Proficient in Kubernetes, Istio, CI/CD pipelines, and
+                Infrastructure as Code tools such as Terraform, I excel at
+                delivering secure and scalable cloud solutions.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
-                  href="/dummy.pdf"
+                  href="/Vivi Tian - Resume.pdf"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg
                 text-lg font-semibold hover:bg-light hover:text-dark 

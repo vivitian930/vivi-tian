@@ -59,11 +59,11 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I'm Vivi, an Azure Cloud and DevOps Engineer with experience
-                in designing and implementing cloud-native app solutions. I have
-                a strong background in DevOps/GitOps best practices, which helps
-                organizations streamline their development processes and improve
-                scalability.
+                Hi, I&apos;m Vivi, an Azure Cloud and DevOps Engineer with
+                experience in designing and implementing cloud-native app
+                solutions. I have a strong background in DevOps/GitOps best
+                practices, which helps organizations streamline their
+                development processes and improve scalability.
               </p>
               <p className="my-4 font-medium">
                 As an expert in Azure Cloud Architecture, I have designed and
@@ -76,7 +76,7 @@ const about = () => {
                 I am a highly communicative and collaborative team player who is
                 equally comfortable working independently. My areas of expertise
                 include CI/CD pipelines, IaC and Terraform, networking, and
-                security. Whatever challenge you are facing, whether it's
+                security. Whatever challenge you are facing, whether it&apos;s
                 migrating to the cloud, optimizing your existing cloud
                 infrastructure, or improving your development processes, I can
                 help you achieve your goals.

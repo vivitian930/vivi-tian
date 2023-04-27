@@ -1,13 +1,20 @@
 {
-  "name": "developer-portfolio-starter-code",
+  "name": "vivitian930.github.io",
+  "homepage": "https://vivitian930.github.io/",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
+  "exportPathMap": {
+    "/": {
+      "page": "/"
+    }
+  },
+  "outDir": "out",
   "dependencies": {
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
