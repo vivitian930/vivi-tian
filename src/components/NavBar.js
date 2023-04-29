@@ -107,7 +107,7 @@ const NavBar = () => {
             <TwitterIcon />
           </motion.a> */}
           <motion.a
-            href="https://github.com/vivitian930"
+            href="https://github.com/haochen23"
             target={"_blank"}
             whileHover={{ y: -2, scale: 1.7 }}
             whileTap={{ scale: 0.9 }}
@@ -116,7 +116,7 @@ const NavBar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="https://www.linkedin.com/in/vivi-tian/"
+            href="https://www.linkedin.com/in/hao-chen-auckland/"
             target={"_blank"}
             whileHover={{ y: -2, scale: 1.7 }}
             whileTap={{ scale: 0.9 }}
@@ -125,7 +125,7 @@ const NavBar = () => {
             <LinkedInIcon />
           </motion.a>
           <motion.a
-            href="https://www.credly.com/users/jing-tian.cb19ac1e"
+            href="https://www.credly.com/users/hao-chen.c4b252a3"
             target={"_blank"}
             initial={{ scale: 1.2 }}
             whileHover={{ y: -2, scale: 1.7 }}
@@ -195,7 +195,7 @@ const NavBar = () => {
               <TwitterIcon />
             </motion.a> */}
             <motion.a
-              href="https://github.com/vivitian930"
+              href="https://github.com/haochen23"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -204,7 +204,7 @@ const NavBar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="https://www.linkedin.com/in/vivi-tian/"
+              href="https://www.linkedin.com/in/hao-chen-auckland/"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -213,7 +213,7 @@ const NavBar = () => {
               <LinkedInIcon />
             </motion.a>
             <motion.a
-              href="https://www.credly.com/users/jing-tian.cb19ac1e"
+              href="https://www.credly.com/users/hao-chen.c4b252a3"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}

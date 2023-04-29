@@ -40,8 +40,8 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>Vivi Tian | About Page</title>
-        <meta name="description" content="Vivi Tian, Github: vivitian930." />
+        <title>Eric Chen | About Page</title>
+        <meta name="description" content="Eric Chen, Github: haochen23." />
       </Head>
       <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
@@ -59,7 +59,7 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I&apos;m Vivi, an Azure Cloud and DevOps Engineer with
+                Hi, I&apos;m Eric, an Azure Cloud and DevOps Engineer with
                 experience in designing and implementing cloud-native app
                 solutions. I have a strong background in DevOps/GitOps best
                 practices, which helps organizations streamline their
@@ -89,7 +89,7 @@ const about = () => {
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
               <Image
                 src={profilePic}
-                alt="Vivi Tian"
+                alt="Eric Chen"
                 className="w-full h-auto rounded-2xl"
                 priority
                 sizes="(max-width: 768) 100vw,

@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Vivi Tian&apos;s Portfolio</title>
-        <meta name="description" content="Vivi Tian, vivitian930" />
+        <title>Eric Chen&apos;s Portfolio</title>
+        <meta name="description" content="Eric Chen, haochen23" />
       </Head>
       <TransitionEffect />
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
@@ -24,7 +24,7 @@ export default function Home() {
             <div className="w-[45%] md:w-full">
               <Image
                 src={ProfilePic}
-                alt="Vivi"
+                alt="Eric Chen"
                 className="w-full h-auto lg:hidden md:inline-block md:w-full "
                 priority
                 sizes="(max-width: 768) 100vw,
@@ -62,7 +62,7 @@ export default function Home() {
                   <LinkArrow className={"w-6 ml-1"} />
                 </Link>
                 <Link
-                  href="mailto:vivi.tian930@gmail.com"
+                  href="mailto:eric.chen.uoa@gmail.com"
                   target={"_blank"}
                   className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                 >
@@ -76,7 +76,7 @@ export default function Home() {
         <HireMe />
 
         {/* <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
-          <Image src={LightBultb} alt="Vivi" className="w-full h-auto" />
+          <Image src={LightBultb} alt="Eric" className="w-full h-auto" />
         </div> */}
       </main>
     </>

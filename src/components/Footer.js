@@ -19,11 +19,11 @@ const Footer = () => {
           </span>{" "}
           By&nbsp;
           <Link
-            href="https://github.com/vivitian930"
+            href="https://github.com/haochen23"
             className="underline underline-offset-2"
             target={"_blank"}
           >
-            Vivi Tian
+            Eric Chen
           </Link>
         </div>
         <Link

@@ -157,8 +157,8 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>Vivi Tian | Projects Page</title>
-        <meta name="description" content="Vivi Tian, Github: vivitian930." />
+        <title>Eric Chen | Projects Page</title>
+        <meta name="description" content="Eric Chen, Github: haochen23." />
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">

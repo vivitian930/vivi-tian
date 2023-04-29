@@ -26,7 +26,7 @@ const Logo = () => {
           }
         }}
       >
-        VT
+        EC
       </MontionLink>
     </div>
   )
